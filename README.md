@@ -26,3 +26,6 @@ Pritunl host with ssl - https://178.154.231.128.sslip.io/
 
 bastion_IP = 178.154.231.128
 someinternalhost_IP = 10.130.0.23
+
+testapp_IP = 104.154.137.126
+testapp_port = 9292
