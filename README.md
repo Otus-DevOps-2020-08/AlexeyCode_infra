@@ -1,4 +1,4 @@
-# AlexeyCode_infra ДЗ№5
+# AlexeyCode_infra ДЗ№7
 AlexeyCode Infra repository
 
 
@@ -27,5 +27,18 @@ Pritunl host with ssl - https://178.154.231.128.sslip.io/
 bastion_IP = 178.154.231.128
 someinternalhost_IP = 10.130.0.23
 
+ДЗ№6
 testapp_IP = 104.154.137.126
 testapp_port = 9292
+
+ДЗ№7
+## В процессе сделано:
+ - Создание образа пакером с поднятым прикладом
+ - Скрипт который поднимает vm  через yandex cli c поднятым прикладом
+
+## Как запустить проект:
+ - Убрать .examples из названия файла variables.json.examples, подставить свои значения переменных
+ - Запустить packer build -var-file=variables.json immutable.json из директории packer
+
+## Как проверить работоспособность:
+ - Перейти по ссылке http://<ip созданной vm>:9292
