@@ -35,5 +35,5 @@ variable private_key_path {
 
 variable instance_count {
   description = "Number of instances to deploy"
-  default = 1
+  default     = 1
 }
