@@ -37,3 +37,13 @@ variable instance_count {
   description = "Number of instances to deploy"
   default     = 1
 }
+
+variable app_disk_image {
+  description = "Disk image for reddit app"
+  default     = "reddit-app-base"
+}
+
+variable db_disk_image {
+  description = "Disk image for reddit db"
+  default     = "reddit-db-base"
+}
