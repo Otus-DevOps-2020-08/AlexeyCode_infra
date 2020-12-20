@@ -21,10 +21,6 @@ variable image_id {
   description = "image id"
 }
 
-variable subnet_id {
-  description = "Subnet id"
-}
-
 variable public_key_path {
   description = "Path to the public key"
 }
