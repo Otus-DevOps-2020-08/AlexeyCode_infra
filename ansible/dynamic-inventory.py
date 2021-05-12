@@ -49,5 +49,6 @@ class ExampleInventory(object):
         self.args = parser.parse_args()
 
 
+
 # Get the inventory.
 ExampleInventory()
